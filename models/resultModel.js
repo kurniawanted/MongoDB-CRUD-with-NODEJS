@@ -114,7 +114,7 @@ const resultSchema = new mongoose.Schema(
       type: String,
     },
     flagEnriching: {
-      type: String,
+      type: Array,
     },
     creditedAt: {
       type: Date,
